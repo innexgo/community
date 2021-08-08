@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Layout from '../components/Layout';
 import Section from '../components/Section';
+import { StoriesSection } from '../pages/Stories';
 
 import CarouselImage1 from '../assets/carousel/1.jpg';
 import CarouselImage2 from '../assets/carousel/2.jpg';
@@ -35,11 +36,7 @@ const Home = () => <Layout>
       The students at ST are have done some great things helping their school, neighbors, teachers, and fellow students.
       This website is meant to recognize their accomplishments and showcase the good work that people have done.
     </Section>
-    <Section id="stories" name="Stories">
-      <ul>
-        <li><Link to="/story1">Be A Saint Promotional Mural</Link></li>
-      </ul>
-    </Section>
+    <StoriesSection />
   </div>
 </Layout>
 

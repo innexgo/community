@@ -13,6 +13,7 @@ import './styles/style.scss';
 import 'bootstrap/dist/js/bootstrap';
 
 import Story1 from './pages/Story1';
+import Story2 from './pages/Story2';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/submit" exact component={Submit} />
 
         <Route path="/story1" exact component={Story1} />
+        <Route path="/story2" exact component={Story2} />
 
         <Route path="/" component={Error} />
       </Switch>
