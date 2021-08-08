@@ -3,7 +3,7 @@ import { ThreeDotsVertical } from 'react-bootstrap-icons'
 
 const Header = () =>
   <header className="pb-5">
-    <nav className={"navbar navbar-expand-lg py-3 fixed-top"}>
+    <nav className={"navbar navbar-expand-lg py-3 fixed-top navbar-light bg-light shadow-sm"}>
       <div className="container d-flex">
         <Link className="navbar-brand" to="/"><strong>ST Community Website </strong></Link>
         {/*Collapsible Button*/}
@@ -17,7 +17,7 @@ const Header = () =>
           {/*Left Aligned*/}
           <div className="navbar-nav">
             <Link to="/about" className="nav-item nav-link"><strong>About</strong></Link>
-            <Link to="/links" className="nav-item nav-link"><strong>Links</strong></Link>
+            <Link to="/stories" className="nav-item nav-link"><strong>Stories</strong></Link>
           </div>
           {/*Right Aligned*/}
           <div className="navbar-nav ms-auto">

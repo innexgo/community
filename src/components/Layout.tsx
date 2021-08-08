@@ -4,7 +4,7 @@ import Header from './Header';
 function Footer() {
   return (
     <footer className="container-fluid my-3"><br />
-      <p>&copy; Govind Pimpale, MIT Licensed</p>
+      <p>&copy; ST Community Website</p>
     </footer>
   )
 }
