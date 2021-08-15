@@ -1,15 +1,11 @@
-
-import React from 'react';
-import { Link } from 'react-router-dom';
-
 import Layout from '../components/Layout';
 import Section from '../components/Section';
 
 export const StoriesSection = () =>
   <Section id="stories" name="Stories">
     <ul>
-      <li><Link to="/story1">Be A Saint Promotional Mural</Link></li>
-      <li><Link to="/story2">Saying Thank You</Link></li>
+      <li><a href="/story1">Be A Saint Promotional Mural</a></li>
+      <li><a href="/story2">Saying Thank You</a></li>
     </ul>
   </Section>
 

@@ -13,14 +13,21 @@ const Home = () => <Layout>
   <div id="images" className="container pt-5" >
     <div id="carouselExampleControls" className="carousel slide border border-primary" data-bs-ride="carousel">
       <div className="carousel-inner bg-secondary" style={{ height: "50vh" }}>
+        {/* If you want to add a new image to the carousel, make sure to add a new CarouselImage and add a link to the story */}
         <div className="carousel-item active">
-          <img src={CarouselImage1} className="d-block mx-auto" style={{ height: "50vh" }} alt="image 1" />
+          <a href="/story1">
+            <img src={CarouselImage1} className="d-block mx-auto" style={{ height: "50vh" }} alt="image 1" />
+          </a>
         </div>
         <div className="carousel-item">
-          <img src={CarouselImage2} className="d-block mx-auto" style={{ height: "50vh" }} alt="image 2" />
+          <a href="/story1">
+            <img src={CarouselImage2} className="d-block mx-auto" style={{ height: "50vh" }} alt="image 2" />
+          </a>
         </div>
         <div className="carousel-item">
-          <img src={CarouselImage3} className="d-block mx-auto" style={{ height: "50vh" }} alt="image 3" />
+          <a href="/story1">
+            <img src={CarouselImage3} className="d-block mx-auto" style={{ height: "50vh" }} alt="image 3" />
+          </a>
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
