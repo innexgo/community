@@ -14,9 +14,9 @@ import 'bootstrap/dist/js/bootstrap';
 
 import Story1 from './pages/Story1';
 import Story2 from './pages/Story2';
+import Story3 from './pages/Story3';
 
-
-function App() {
+function App1() {
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -28,6 +28,7 @@ function App() {
 
         <Route path="/story1" exact component={Story1} />
         <Route path="/story2" exact component={Story2} />
+        <Route path="/story3" exact component={Story3} />
 
         <Route path="/" component={Error} />
       </Switch>
@@ -35,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default App1;

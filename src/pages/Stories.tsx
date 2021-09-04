@@ -6,6 +6,8 @@ export const StoriesSection = () =>
     <ul>
       <li><a href="/story1">Be A Saint Promotional Mural</a></li>
       <li><a href="/story2">Saying Thank You</a></li>
+      <li><a href="/story3">Michelle T's Bay Area Bird
+      Experience app</a></li>
     </ul>
   </Section>
 

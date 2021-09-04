@@ -5,7 +5,7 @@ const Header = () =>
   <header className="pb-5">
     <nav className={"navbar navbar-expand-lg py-3 fixed-top navbar-light bg-light shadow-sm"}>
       <div className="container d-flex">
-        <Link className="navbar-brand" to="/"><strong>Be A Saint Board</strong></Link>
+        <Link className="navbar-brand" to="/"><strong>The Bark Out Board</strong></Link>
         {/*Collapsible Button*/}
         <button type="button" className="navbar-toggler"
           data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
