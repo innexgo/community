@@ -8,12 +8,18 @@ const About = () => <Layout>
   <div id="images" className="container pt-5" >
     <Section id="about" name="About">
       <p>
-        The students at ST have done some great things helping their school, neighbors, teachers, and fellow students.
-        This website is meant to recognize their accomplishments and showcase the good work that people have done.
+        The Saintly Bark Out is a place for students and staff to be recognized for their actions that represent how to be a BeAST (Be A SainT).
+        Our ST family do amazing things in the classroom, on campus and in the community and they should be recognized and showcased for these actions.
       </p>
       <p>
         This website was created with the help of the CS students at ST and Carole Ng.
       </p>
+    </Section>
+    <Section id="faq" name="FAQ">
+      <h5>Who can nominate someone?</h5>
+      <p>Students, Teachers, Parents, Community members.</p>
+      <h5>Who can be NOMINATED?</h5>
+      <p>Students, Teachers.</p>
     </Section>
   </div>
 </Layout>
