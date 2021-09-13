@@ -5,6 +5,7 @@ type StoryProps = {
   title: string,
   blurb: string,
   students?: string[],
+  staff?: string[],
   date: string,
   images?: CarouselImage[],
 }
@@ -23,6 +24,13 @@ const Story = (props: StoryProps) => <>
         <>
           <h5>Students</h5>
           <p>{props.students.join(", ")}</p>
+        </>
+    }
+    {
+      props.staff === undefined ? false :
+        <>
+          <h5>Staff</h5>
+          <p>{props.staff.join(", ")}</p>
         </>
     }
   </Section>
