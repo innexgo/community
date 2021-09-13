@@ -1,7 +1,7 @@
-import Layout from '../components/Layout';
-import Story from '../components/Story';
+import Layout from '../../components/Layout';
+import Story from '../../components/Story';
 
-import image from '../assets/story1/IMG_0724.jpg';
+import image from '../../assets/story1/IMG_0724.jpg';
 
 const Story1 = () => <Layout>
   <div id="images" className="container pt-5" >

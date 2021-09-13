@@ -1,5 +1,5 @@
-import Layout from '../components/Layout';
-import Story from '../components/Story';
+import Layout from '../../components/Layout';
+import Story from '../../components/Story';
 
 
 const CMStory4 = () => <Layout>

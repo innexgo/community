@@ -7,9 +7,6 @@ import Section from '../components/Section';
 
 export const Classroom = () =>
   <Section id="classroom" name="Classroom">
-    <ul>
-      <li><a href="/story2">Saying Thank You - August 2021</a></li>
-    </ul>
   </Section>
 
 const ClassroomStory = () => <Layout>

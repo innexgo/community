@@ -11,7 +11,7 @@ export const Community = () =>
       <li><a href="/story3">Michelle T's Bay Area Bird Experience app - August 2021</a></li>
     </ul>
     <ul>
-      <li><a href="/CMStory4">Helping Children Locked in a Car- August 2021</a></li>
+      <li><a href="/story4">Helping Children Locked in a Car - August 2021</a></li>
     </ul>
   </Section>
 
