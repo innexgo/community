@@ -16,8 +16,14 @@ const Header = () =>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           {/*Left Aligned*/}
           <div className="navbar-nav">
+            
+            
+            
+            
+            <Link to="/classroom" className="nav-item nav-link"><strong>Classroom</strong></Link>
+            <Link to="/community" className="nav-item nav-link"><strong>Community</strong></Link>
+            <Link to="/campus" className="nav-item nav-link"><strong>Campus</strong></Link>
             <Link to="/about" className="nav-item nav-link"><strong>About</strong></Link>
-            <Link to="/stories" className="nav-item nav-link"><strong>Stories</strong></Link>
           </div>
           {/*Right Aligned*/}
           <div className="navbar-nav ms-auto">

@@ -3,17 +3,17 @@ import Section from '../components/Section';
 
 export const StoriesSection = () =>
   <Section id="stories" name="Stories">
-    <h5>Classroom</h5>
+    
     <ul>
-      <li><a href="/story2">Saying Thank You</a></li>
+      <li><a href="/classroom">Classroom</a></li>
     </ul>
-    <h5>Campus</h5>
+    
     <ul>
-      <li><a href="/story1">Be A Saint Promotional Mural</a></li>
+      <li><a href="/campus">Campus</a></li>
     </ul>
-    <h5>Community</h5>
+
     <ul>
-      <li><a href="/story3">Michelle T's Bay Area Bird Experience app</a></li>
+      <li><a href="/community">Community</a></li>
     </ul>
   </Section>
 
