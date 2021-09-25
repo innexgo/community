@@ -20,6 +20,9 @@ import Story2 from './pages/stories/Story2';
 import Story3 from './pages/stories/Story3';
 import Story4 from './pages/stories/Story4';
 import Story5 from './pages/stories/Story5';
+import Story6 from './pages/stories/Story6';
+import Story7 from './pages/stories/Story7';
+import Story8 from './pages/stories/Story8';
 
 function App1() {
   return (
@@ -38,6 +41,10 @@ function App1() {
         <Route path="/story3" exact component={Story3} />
         <Route path="/story4" exact component={Story4} />
         <Route path="/story5" exact component={Story5} />
+        <Route path="/story6" exact component={Story6}/>
+        <Route path="/story7" exact component={Story7}/>
+        <Route path="/story8" exact component={Story8}/>
+        
         <Route path="/" component={Error} />
       </Switch>
     </BrowserRouter>
