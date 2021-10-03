@@ -12,7 +12,7 @@ export const Classroom = () =>
 const ClassroomStory = () => <Layout>
   <div id="images" className="container pt-5" >
     <Classroom />
-    <p> No events yet, please check back for events</p>
+    <p> No events yet, please check back soon for events</p>
   </div>
 </Layout>
 
