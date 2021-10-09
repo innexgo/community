@@ -44,7 +44,7 @@ const Home = () => <Layout>
       Our ST family do amazing things in the classroom, on campus and in the community and they should be recognized and showcased for these actions.
       <p>ST will be having regular gift card drawings for students who are featured.</p>
     </Section>
-    <p> Hello</p>
+    
     <StoriesSection />
   </div>
 </Layout>

@@ -1,15 +1,21 @@
 import Layout from '../../components/Layout';
 import Story from '../../components/Story';
 
+import image from '../../assets/story4/story4.jpg';
 
 const CMStory4 = () => <Layout>
   <div id="images" className="container pt-5" >
     <Story
-      title="Helping Children Locked in a Car"
-      blurb="A grandparent left her keys in the car with two grandkids, and a dog locked in the vehicle. Mr. O'brien, Mr. Pham, Mr. Oxtot, and students assisted by breaking a car window. They worked on this for about 17 minutes in very hot weather."
-      staff={["Mr. O'brien","Mr. Pham", "Mr. Oxtot" ]}
-      date="August 10 2021"
-      
+      title="Be A Saint Promotional Mural"
+      blurb="These staff members demonstrated their CAN-DO ATTITUDE when they discovered a woman who had accidentally locked her kids and keys in the car.  The temperature was 90+ so they had to act fast.  The team had the where-with-all to cover the car with shade and keep the kids calm while they found a hammer to smash the window, saving them from the heat. "
+      staff={["Mr. O'Brien", "Mr. Papin", "Ms. Plemel", "Mr. Oxtot", "Mr. Pham"]}
+      date="September 2021"
+      images={[
+        {
+          alt: "Breaking a car window",
+          src: image
+        }
+      ]}
     />
   </div>
 </Layout>
