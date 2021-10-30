@@ -24,6 +24,9 @@ import Story6 from './pages/stories/Story6';
 import Story7 from './pages/stories/Story7';
 import Story8 from './pages/stories/Story8';
 import Story9 from './pages/stories/Story9';
+import Story10 from './pages/stories/Story10';
+import Story11 from './pages/stories/Story11';
+
 function App1() {
   return (
     <BrowserRouter>
@@ -45,6 +48,8 @@ function App1() {
         <Route path="/story7" exact component={Story7}/>
         <Route path="/story8" exact component={Story8}/>
         <Route path="/story9" exact component={Story9}/>
+        <Route path="/story10" exact component={Story10}/>
+        <Route path="/story11" exact component={Story11}/>
 
         <Route path="/" component={Error} />
       </Switch>

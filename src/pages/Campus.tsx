@@ -8,7 +8,11 @@ import Section from '../components/Section';
 export const Campus = () =>
   <Section id="campus" name="Campus">
     <ul>
-      <li><a href="/story9">Helping with the Saint Bernard Giphy</a></li>
+      <li><a href="/story10">Taking time for others - October 2021</a></li>
+      </ul>
+     
+    <ul>
+      <li><a href="/story9">Helping with the Saint Bernard Giphy - September 2021</a></li>
       </ul>
      <ul>
       <li><a href="/story8"> Responsibility at ST - September 2021</a></li>

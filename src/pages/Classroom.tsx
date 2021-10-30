@@ -12,7 +12,12 @@ export const Classroom = () =>
 const ClassroomStory = () => <Layout>
   <div id="images" className="container pt-5" >
     <Classroom />
-    <p> There are no events yet, please check back soon for events.</p>
+    
+    <ul>
+      <li><a href="/story11">Creative Dress out Day - October 2021</a></li>
+    </ul>
+
+
   </div>
 </Layout>
 
