@@ -26,6 +26,7 @@ import Story8 from './pages/stories/Story8';
 import Story9 from './pages/stories/Story9';
 import Story10 from './pages/stories/Story10';
 import Story11 from './pages/stories/Story11';
+import Story12 from './pages/stories/Story12';
 
 function App1() {
   return (
@@ -50,6 +51,7 @@ function App1() {
         <Route path="/story9" exact component={Story9}/>
         <Route path="/story10" exact component={Story10}/>
         <Route path="/story11" exact component={Story11}/>
+        <Route path="/story12" exact component={Story12}/>
 
         <Route path="/" component={Error} />
       </Switch>
