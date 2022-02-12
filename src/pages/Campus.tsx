@@ -8,7 +8,7 @@ import Section from '../components/Section';
 export const Campus = () =>
   <Section id="campus" name="Campus">
    <ul>
-      <li><a href="/story12">Give me a few minutes - February 2021</a></li>
+      <li><a href="/story12">Give me a few minutes - February 2022</a></li>
       </ul>
    <ul>
       <li><a href="/story10">Taking time for others - October 2021</a></li>
