@@ -8,6 +8,7 @@ import { StoriesSection } from '../pages/Stories';
 import CarouselImage1 from '../assets/carousel/1.jpg';
 import CarouselImage2 from '../assets/carousel/2.jpg';
 import CarouselImage3 from '../assets/carousel/3.jpg';
+import CarouselImage4 from '../assets/carousel/4.jpg';
 
 const Home = () => <Layout>
   <div id="images" className="container pt-5" >
@@ -27,6 +28,11 @@ const Home = () => <Layout>
         <div className="carousel-item">
           <a href="/story1">
             <img src={CarouselImage3} className="d-block mx-auto" style={{ height: "50vh" }} alt="image 3" />
+          </a>
+        </div>
+        <div className="carousel-item">
+          <a href="/story13">
+            <img src={CarouselImage4} className="d-block mx-auto" style={{ height: "50vh" }} alt="image 4" />
           </a>
         </div>
       </div>
