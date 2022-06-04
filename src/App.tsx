@@ -29,6 +29,13 @@ import Story11 from './pages/stories/Story11';
 import Story12 from './pages/stories/Story12';
 import Story13 from './pages/stories/Story13';
 import Story14 from './pages/stories/Story14';
+import Story15 from './pages/stories/Story15';
+import Story16 from './pages/stories/Story16';
+import Story17 from './pages/stories/Story17';
+import Story18 from './pages/stories/Story18';
+import Story19 from './pages/stories/Story19';
+
+
 
 function App1() {
   return (
@@ -56,6 +63,11 @@ function App1() {
         <Route path="/story12" exact component={Story12}/>
         <Route path="/story13" exact component={Story13}/>
         <Route path="/story14" exact component={Story14}/>
+        <Route path="/story15" exact component={Story15}/>
+        <Route path="/story16" exact component={Story16}/>
+        <Route path="/story17" exact component={Story17}/>
+        <Route path="/story18" exact component={Story18}/>
+        <Route path="/story19" exact component={Story19}/>
         <Route path="/" component={Error} />
       </Switch>
     </BrowserRouter>

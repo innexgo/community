@@ -12,7 +12,9 @@ export const Classroom = () =>
 const ClassroomStory = () => <Layout>
   <div id="images" className="container pt-5" >
     <Classroom />
-    
+    <ul>
+      <li><a href="/story19">AFA CyberPatriot Competition - December 2021</a></li>
+    </ul>
     <ul>
       <li><a href="/story11">Creative Dress out Day - October 2021</a></li>
     </ul>
