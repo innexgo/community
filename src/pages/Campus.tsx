@@ -7,6 +7,12 @@ import Section from '../components/Section';
 
 export const Campus = () =>
   <Section id="campus" name="Campus">
+    <ul>
+      <li><a href="/story21">STMUN in New York City- April 2022</a></li>
+    </ul>
+    <ul>
+      <li><a href="/story22">STMUN at UC Berkeley Confrence - March 2022</a></li>
+    </ul>
      <ul>
       <li><a href="/story14">Santa Teresa Badminton- March 2022</a></li>
     </ul>
@@ -17,6 +23,10 @@ export const Campus = () =>
    <ul>
       <li><a href="/story12">Give me a few minutes - February 2022</a></li>
       </ul>
+   
+   <ul>
+      <li><a href="/story20">Mini MESA Day - January 2022</a></li>
+    </ul>
    <ul>
       <li><a href="/story10">Taking time for others - October 2021</a></li>
       </ul>
