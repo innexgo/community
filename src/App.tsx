@@ -37,7 +37,7 @@ import Story19 from './pages/stories/Story19';
 import Story20 from './pages/stories/Story20';
 import Story21 from './pages/stories/Story21';
 import Story22 from './pages/stories/Story22';
-import Story23 from './pages/stories/Story23';
+
 
 
 function App1() {
@@ -74,7 +74,7 @@ function App1() {
         <Route path="/story20" exact component={Story20}/>
         <Route path="/story21" exact component={Story21}/>
         <Route path="/story22" exact component={Story22}/>
-        <Route path="/story23" exact component={Story23}/>
+        
         <Route path="/" component={Error} />
       </Switch>
     </BrowserRouter>

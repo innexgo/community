@@ -13,7 +13,7 @@ const CPStory19 = () => <Layout>
       
       Please congratulate them when you see them.  These are some dedicated students!!!"
       students={["Team 1: Henry C, Giwin V, Ramon K, Julie N, Navneeth S, Team 2:Maheswari B, Ryan H, Jacob K, Andrew K, Aaron M, Team 3: Eric C, Rayirth D, Keen D, Vikram N, Shashhank S, Team 4: Rushil D, Kasey D, Mohid F, Niklesh G, Yagnesh V"]}
-      date="November 2021"
+      date="December 2021"
       
     
     images={[

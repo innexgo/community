@@ -8,9 +8,6 @@ import Section from '../components/Section';
 export const Campus = () =>
   <Section id="campus" name="Campus">
     <ul>
-      <li><a href="/story23">Seniors Grad- June 2022</a></li>
-    </ul>
-    <ul>
       <li><a href="/story21">STMUN in New York City- April 2022</a></li>
     </ul>
     <ul>
